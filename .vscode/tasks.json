@@ -1,0 +1,18 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "django: runserver https",
+            "type": "shell",
+            "command": "python manage.py runserver",
+            "args": [
+                "--cert",
+                "D:/code_concerned/ssl/server.crt",
+                "127.0.0.1:3668",
+            ],
+            "problemMatcher": []
+        },
+    ]
+}
