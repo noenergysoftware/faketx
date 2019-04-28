@@ -9,7 +9,7 @@
             "command": "python manage.py runserver",
             "args": [
                 "--cert",
-                "D:/code_concerned/ssl/server.crt",
+                "D:/code_concerned/ssl/ca.crt",
                 "127.0.0.1:3668",
             ],
             "problemMatcher": []

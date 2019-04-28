@@ -4,4 +4,5 @@ from . import views
 
 urlpatterns = [
     path('TCaptcha.js', views.js),
+    path('ticket/verify', views.verify),
 ]
